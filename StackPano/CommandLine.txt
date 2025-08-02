@@ -1,0 +1,26 @@
+﻿HeliconFocus Command Line Options
+
+-silent Starts Helicon Focus without interface, with progress bar only 
+-save:full_name.ext Saves result to the full_name.ext. If omitted, result is saved to Focused subfolder  
+-j:jpeg_quality Sets JPEG quality (0-100)  
+-dmap Saves depth map image 
+-noresult Do not save resulting image 
+-3d Saves 3D model in Helicon 3D Viewer file format 
+-noprogress Do not show rendering progress bar 
+    
+-i full_name.ext full_name.ext points to text file with input file names separated with a new line 
+-o full_name.ext full_name.ext points to text file to store list of saved outputs 
+-preferred-output-path folder_name folder_name - folder to be opened by default when saving outputs from Helicon Focus 
+    
+-tif:x specifies TIFF compression option: lzw or u for LZW compression or no compression, respectively. If this option is omitted, LZW compression is selected. Example: -tif:u 
+-mp:x Sets Method (0=method A, 1=method B, 2=method C) 
+-rp:xxx Sets Radius 
+-sp:xxx  Sets Smoothing 
+    
+-va:xxx  Sets  Vertical shift adjustment 
+-ha:xxx Sets Horizontal shift adjustment 
+-ra:xxx Sets Rotation adjustment 
+-ma:xxx Sets Magnification adjustment 
+-ba:xxx Sets Brightness adjustment 
+-im:x Sets Interpolation method (1=Bilinear,...) 
+-dmf:xx Sets Depth map feathering 
